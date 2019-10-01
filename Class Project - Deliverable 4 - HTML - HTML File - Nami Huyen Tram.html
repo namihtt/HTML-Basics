@@ -11,18 +11,14 @@
 
 <h1> Customer Information </h1>
 
-<p> Please enter the following information: </p>
+<p id="demo"> Please enter the following information: </p>
 
-<form>
+<form action="">
   First name: <br> <input type="text" name="firstname"> <br>
   Last name: <br> <input type="text" name="lastname"> <br>
-  Email: <br> <input type="text" name="email"><br><br>
+  Email: <br> <input type="text" name="email"> <br> <br>
+  <input type="submit" onclick="alert('You have checked in. Thank you and have fun!')" value="Submit">
 </form>
-
-<center>
-<p id="demo" style="display:none">You have checked in. Thank you and enjoy!</p>
-<button type="button" onclick="document.getElementById('demo').style.display='block'">Submit</button>
-</center>  
 
 </body>
 
