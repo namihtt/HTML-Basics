@@ -8,34 +8,34 @@
 /* style of body content of the page */
 body 
 {
-background: Black;
+  background: Black;
 }
 
 /* style of the most important heading of the page */
 h1 
 {
-text-align: center;
-color: Tomato;
+  text-align: center;
+  color: Tomato;
 }
 
 /* paragraph's style */
 p
 {
-text-align: center;
-color: Tomato;
+  text-align: center;
+  color: Tomato;
 }
 
 /* form's style */
 form 
 {
-text-align: center;
-color: Tomato;
-font-weight: bold;
+  text-align: center;
+  color: Tomato;
+  font-weight: bold;
 }
 
 /* button's style */
 button 
 {
-background-color: Tomato;
-font-weight: bold;
+  background-color: Tomato;
+  font-weight: bold;
 }
